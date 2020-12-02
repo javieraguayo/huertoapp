@@ -134,19 +134,16 @@ class DatabaseSeeder extends Seeder
 
         //agregar vegetales
         //1
-        $vege1 = new Vegetable();
-        $vege1->name= 'Tomate';
-        $vege1->illumination_id = 1;
-        $vege1->harvest_id = 1;
-        $vege1->sowing_type_id = 1;
-        $vege1->save();
-        //2
-        $vege2 = new Vegetable();
-        $vege2->name= 'Pimenton';
-        $vege2->illumination_id = 1;
-        $vege2->harvest_id = 2;
-        $vege2->sowing_type_id = 1;
-        $vege2->save();
+        // $vege1 = new Vegetable();
+        // $vege1->name= 'Tomate';
+        // $vege1->illumination_id = 1;
+        // $vege1->harvest_id = 1;
+        // $vege1->sowing_type_id = 1;
+        // $vege1->save();
+        //3
+        
+
+
 
 
 

@@ -19,8 +19,13 @@ class Vegetable extends Model
         return $this->hasMany('App\Models\Harvest');
     }
 
-    public function sowing_type()
+    public function sowing_types()
     {
         return $this->hasMany('App\Models\Sowing_type');
+    }
+
+    public function months()
+    {
+        return $this->belongsToMany('App\Models\Month');
     }
 }
